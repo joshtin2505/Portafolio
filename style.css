@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+body{
+    background: url('../images/3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;
+    transition: 7s;
+}
+nav{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    padding: 0.5rem;
+    background: rgba(180, 180, 180, 0.562);
+    backdrop-filter: blur(10px);
+    margin-top: 10px;
+    border-radius: 70px;
+    border: 2px solid #ffffff;
+
+}
+nav a{
+    transition: 0.3s;
+}
+nav .nav-link-cont a{
+    margin-left: 10px;
+}
+nav a:hover{
+    scale:1.05;
+    color: #727272;
+    text-decoration: underline;
+}
+.ego{
+    margin-left: 90px;
+    font-size: 110%;
+    font-weight: bold;
+    color: #ffffff;
+}
+nav .nav-link-cont{
+    width: 60%;
+    justify-content: center;
+}
+.nav-link-cont a{
+    color: #ffffff;
+}
+nav-link-cont{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.cont-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+}
+.cont-1 .sub-cont-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    height: 80%;
+    margin-top: 40px;
+    border-radius: 50px;
+    border: 1px solid #ffffff4f;
+    backdrop-filter: blur(30px);
+}
