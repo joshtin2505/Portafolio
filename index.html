@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,34 +8,95 @@
     <title>Jostin C Dev</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body id="body">
     <header>
         <nav>
             <a href="" class="ego">Jostin C Dev</a>
 
             <ul class="nav-link-cont">
-                <a href="">Principal</a>
-                <a href="">Sobre Mi</a>
-                <a href="">Experiencia</a>
-                <a href="">Mis Proyectos</a>
-                <a href="">Github</a>
-                <a href="">Linkedin</a>
+                <a href="index.html">Principal</a>
+                <a href="#Sobre-mi">Sobre Mi</a>
+                <a href="#">Experiencia</a>
+                <a href="#" class="prolist-com">Mis Proyectos</a>
+                <!-- Aqui deberia hacer una lista desplegable -->
+                
+                <a href="https://github.com/joshtin2505" target="_blank">Github</a>
+                <a href="#">Linkedin</a>
             </ul>
         </nav>
+        <div class="project-list prolist">
+            <ul>
+                <li><a href="https://spirit-harmony-project.000webhostapp.com/" target="_blank">Spirit Harmony</a></li>
+                <li><a href="https://github.com/joshtin2505/Pomodoro-tecnique" target="_blank">Pomodoro Tecnique</a></li>
+                <li><a href="https://github.com/joshtin2505/La-casita-de-papel" target="_blank">La Casita De Papel</a></li>
+            </ul>
+        </div>
     </header>
     <main>
         <section class="container">
             <div class="cont-1">
                 <div class="sub-cont-1">
-                    <h2>¡Hola, Soy Jostin C Dev!</h2>
+                    <h2 class="one-txt">¡Hola, Soy Jostin C Dev!</h2>
                 </div>
             </div>
             <div class="cont-2">
-                <h2>Sobre mi</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit provident sed deserunt maiores distinctio itaque, eum repellendus possimus doloremque fuga, ea quaerat consequuntur mollitia similique beatae repudiandae earum. Consequatur minima accusantium commodi tenetur atque iure eum, fugit cupiditate distinctio corrupti.</p>
+
+                <div class="true-cont-2">
+                    <h2 id="Sobre-mi">Sobre mi</h2>
+                    <div class="sub-cont-2">
+                        <p>Mi nombre es <strong>Justin Castro Perez</strong>, soy de Cartagena - Colombia, tengo 18 años
+                            de edad, soy desarrodallor Web Junior Frond-End, Disañador UX/UI, compongo musica y
+                            instrumentales como hobby, pero principal mente soy estudiante de Ingenieria en Sistemas en
+                            la <strong>Fundacion Universitaria Tecnologico Comfenalco</strong>, desde enero de 2022.</p>
+                        <br><br>
+
+                        <p>Me he formado en varias areas de la computación, como desarrollo web y de apps
+                            multi-plataforma con flutter desde mis inicios como estudiante, pero esta ultima solo esta
+                            en pañales.Ahora mismo me encuentro en diversos proyectos importantes para seguir creciendo
+                            como developer.</p><br> <button class="pro-more">Algunos de mis proyectos</button> 
+                            <br><br>
+                    </div>
+                    <div class="sub-cont-2_2">
+                        <h3 class="hab-title">Hailidades</h3>
+                        <br>
+                        <ul class="ul-hab">
+                            <li>Html 5</li>
+                            <li>Css</li>
+                            <li>Javascript</li>
+                            <li>Java</li>
+                            <li>Dart</li>
+                            <li>Flutter</li>
+                            <li>Python</li>
+                            <li>Photoshop</li>
+                            <li>Ilustrator</li>
+                            <li>Filmora X</li>
+                            <li>Fl Studio</li>
+                        </ul>
+                    </div>
+                    <div class="sub-cont-2_3">
+                        <h3 class="hab-title">Idiomas</h3>
+                        <div class="lang">
+                            <p>Español</p>
+                            <div class="all-es">
+                                <div class="now-es">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lang">
+                            <p>Ingles</p>
+                            <div class="all-ing">
+                                <div class="now-ing">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
     </main>
     <script src="index.js"></script>
 </body>
+
 </html>
